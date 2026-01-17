@@ -182,6 +182,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && npm install --save-dev nodemon",
+    "dev": "node --watch server.js",
     "start": "node server.js"
   },
   "keywords": [],
